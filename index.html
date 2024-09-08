@@ -1,0 +1,462 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>長輩圖問候圖</title>
+<!-- Stylesheets -->
+ 
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<link href="assets/css/style.css?v=20240910" rel="stylesheet">
+<!-- Responsive File -->
+<link href="assets/css/responsive.css?v=20240910" rel="stylesheet">
+<!-- Color File -->
+<link href="assets/css/color.css" rel="stylesheet">
+
+
+<!-- 思源黑體 -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+<link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+<link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+</head>
+
+<body>
+
+<div class="page-wrapper">
+
+    <div class="loader-wrap">
+        <div class="preloader"><div class="preloader-close">Preloader Close</div></div>
+        <div class="layer layer-one"><span class="overlay"></span></div>
+        <div class="layer layer-two"><span class="overlay"></span></div>        
+        <div class="layer layer-three"><span class="overlay"></span></div>        
+    </div>
+
+    <header class="main-header header-style-one">
+        <div class="header-upper">
+            <div class="auto-container">
+                <div class="inner-container d-flex align-items-center justify-content-between">
+                    <div class="logo-box">
+                        <div class="logo"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></div>
+                    </div>
+                    <div class="middle-column">
+                        <div class="nav-outer">
+                            <div class="mobile-nav-toggler"><img src="assets/images/icons/icon-bar.png" alt=""></div>
+                            <nav class="main-menu navbar-expand-md navbar-light">
+                                <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                                    <ul class="navigation">
+                                        <li><a href="index.html">首頁</a></li>
+                                        <li><a href="#">用戶故事</a></li>
+                                        <li><a href="#">長輩圖功用</a></li>
+                                        <li><a href="#">AI創作工具教學</a></li>
+                                        <li class="dropdown"><a href="index.html">每日創作</a>
+                                            <ul>
+                                                <li><a href="#">畫家每日創作</a></li>
+                                                <li><a href="#">AI每日創作</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">用戶評論</a></li>
+                                        <li><a href="#">聯絡我們</a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="right-column header-social">    
+                        <a href="">
+                            <div class="icon-social color-line"> 
+                                <svg width="32" height="32" viewBox="0 0 34 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M33.2234 12.3811L33.2237 12.381L33.2136 12.2974C33.2135 12.296 33.2134 12.2949 33.2132 12.2935C33.2131 12.2922 33.213 12.2911 33.2127 12.2899L33.1749 11.9757C33.1673 11.9126 33.1586 11.8407 33.1488 11.7587L33.1408 11.6934L33.1247 11.6954C32.727 9.43383 31.6347 7.28759 29.9428 5.45502C28.2589 3.63124 26.0711 2.19125 23.616 1.29074C21.5126 0.519188 19.2807 0.127914 16.9826 0.127914C13.8802 0.127914 10.867 0.857581 8.26918 2.23798C3.25958 4.89972 0.305077 9.79223 0.741755 14.7023C0.96779 17.2431 1.96318 19.6617 3.6204 21.6968C5.18022 23.6122 7.29028 25.158 9.72236 26.1669C11.2178 26.7872 12.6963 27.0795 14.2619 27.389L14.4451 27.4253C14.8762 27.5106 14.9921 27.6278 15.022 27.6742C15.0773 27.7604 15.0484 27.9302 15.0262 28.0238C15.0057 28.1101 14.9846 28.1962 14.9635 28.2824C14.7954 28.9678 14.6216 29.6767 14.7581 30.4583C14.9151 31.3567 15.4761 31.872 16.2974 31.8721H16.2976C17.181 31.8721 18.1864 31.2795 18.8516 30.8875L18.9404 30.8352C20.5275 29.9032 22.0227 28.8518 23.1479 28.04C25.6102 26.2635 28.4011 24.2499 30.4935 21.6449C32.6005 19.0212 33.593 15.6497 33.2234 12.3811ZM10.8513 17.3519H8.03886C7.61384 17.3519 7.26929 17.0073 7.26929 16.5823V10.679C7.26929 10.254 7.61384 9.90942 8.03886 9.90942C8.46388 9.90942 8.80843 10.254 8.80843 10.679V15.8127H10.8512C11.2762 15.8127 11.6208 16.1573 11.6208 16.5823C11.6209 17.0073 11.2763 17.3519 10.8513 17.3519ZM13.7853 16.5614C13.7853 16.9864 13.4407 17.331 13.0157 17.331C12.5907 17.331 12.2461 16.9864 12.2461 16.5614V10.6581C12.2461 10.2331 12.5907 9.88854 13.0157 9.88854C13.4407 9.88854 13.7853 10.2331 13.7853 10.6581V16.5614ZM20.7416 16.5614C20.7416 16.8949 20.5269 17.1904 20.2097 17.2934C20.1314 17.3188 20.0513 17.3311 19.9721 17.3311C19.7303 17.3311 19.4968 17.2169 19.3492 17.0136L16.5779 13.1968V16.5615C16.5779 16.9865 16.2334 17.3311 15.8084 17.3311C15.3833 17.3311 15.0388 16.9865 15.0388 16.5615V10.8271C15.0388 10.4936 15.2535 10.1981 15.5707 10.0951C15.888 9.99221 16.2353 10.105 16.4312 10.3749L19.2024 14.1917V10.6581C19.2024 10.2331 19.547 9.88854 19.972 9.88854C20.397 9.88854 20.7416 10.2331 20.7416 10.6581V16.5614ZM26.3492 17.2098H22.5404C22.1154 17.2098 21.7708 16.8653 21.7708 16.4403V13.4887V10.537C21.7708 10.1119 22.1154 9.76738 22.5404 9.76738H26.231C26.6561 9.76738 27.0006 10.1119 27.0006 10.537C27.0006 10.962 26.6561 11.3065 26.231 11.3065H23.31V12.7191H25.6805C26.1055 12.7191 26.45 13.0637 26.45 13.4887C26.45 13.9137 26.1055 14.2583 25.6805 14.2583H23.31V15.6707H26.3492C26.7743 15.6707 27.1188 16.0152 27.1188 16.4403C27.1188 16.8653 26.7743 17.2098 26.3492 17.2098Z" fill="white"/>
+                                </svg>
+                            </div>
+                        </a>                    
+                        <a href="">
+                            <div class="icon-social color-telegram"> 
+                                <svg width="32" height="32" viewBox="0 0 34 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M30.0737 0.192749C30.4792 0.02208 30.923 -0.0367824 31.359 0.0222872C31.795 0.0813569 32.2071 0.2562 32.5526 0.528617C32.8981 0.801035 33.1642 1.16107 33.3233 1.57124C33.4824 1.98142 33.5287 2.42674 33.4573 2.86086L29.7357 25.4348C29.3747 27.6122 26.9855 28.861 24.9886 27.7763C23.3181 26.8689 20.8371 25.4708 18.6055 24.0121C17.4896 23.2819 14.0716 20.9436 14.4917 19.2797C14.8527 17.8571 20.5959 12.511 23.8777 9.33258C25.1658 8.08385 24.5783 7.36349 23.0572 8.51212C19.2799 11.364 13.2151 15.7009 11.2099 16.9217C9.44101 17.9982 8.51883 18.182 7.41614 17.9982C5.40439 17.6634 3.53869 17.1449 2.01593 16.5132C-0.0417615 15.6599 0.0583336 12.831 2.01429 12.0072L30.0737 0.192749Z" fill="white"/>
+                                    </svg>
+                            </div>
+                        </a>
+                    </div>                        
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><span class="fal fa-times"></span></div>
+            
+            <nav class="menu-box">
+                <div class="nav-logo"><a href="index.html"><img src="assets/images/logo.png" alt="" title=""></a></div>
+                <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
+				<!--Social Links-->
+				<!-- <div class="social-links">
+					<ul class="clearfix">
+						<li><a href="#"><span class="fab fa-twitter"></span></a></li>
+						<li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
+						<li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
+						<li><a href="#"><span class="fab fa-instagram"></span></a></li>
+						<li><a href="#"><span class="fab fa-youtube"></span></a></li>
+					</ul>
+                </div> -->
+            </nav>
+        </div>
+
+        <div class="nav-overlay">
+            <div class="cursor"></div>
+            <div class="cursor-follower"></div>
+        </div>
+    </header>
+
+    <div id="search-popup" class="search-popup">
+        <div class="close-search theme-btn"><span class="flaticon-remove"></span></div>
+        <div class="popup-inner">
+            <div class="overlay-layer"></div>
+            <div class="search-form">
+                <form method="post" action="index.html">
+                    <div class="form-group">
+                        <fieldset>
+                            <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required >
+                            <input type="submit" value="Search Now!" class="theme-btn">
+                        </fieldset>
+                    </div>
+                </form>
+                <br>
+                <h3>Recent Search Keywords</h3>
+                <ul class="recent-searches">
+                    <li><a href="#">Finance</a></li>
+                    <li><a href="#">Idea</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Growth</a></li>
+                    <li><a href="#">Plan</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <section class="banner-section">
+        <div class="swiper-container banner-slider">
+            <div class="swiper-wrapper">
+                <!-- Slide Item -->
+                <div class="swiper-slide" style="background-image: url(assets/images/main-slider/banner-1.jpg);">
+                    <div class="content-outer">
+                        <div class="content-box">
+                            <div class="inner">
+                                <h4>打造更有溫度的聯繫方式</h4>
+                                <h1>2024年最新的免費LINE長輩圖下載，每天送給親朋好友不同的問候貼圖</h1>
+                                <div class="text">加入我們的群組，讓您輕鬆獲取精美的長輩圖和問候圖！</div>
+                                <div class="PC-r_H5-c">
+                                    <div class="link-box">
+                                        <a href="https://line.me/R/ti/g/ypZeRn5NFR" class="btn-1 btn-large color-line">
+                                        <svg width="48" height="48" viewBox="0 0 34 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M33.2234 12.3811L33.2237 12.381L33.2136 12.2974C33.2135 12.296 33.2134 12.2949 33.2132 12.2935C33.2131 12.2922 33.213 12.2911 33.2127 12.2899L33.1749 11.9757C33.1673 11.9126 33.1586 11.8407 33.1488 11.7587L33.1408 11.6934L33.1247 11.6954C32.727 9.43383 31.6347 7.28759 29.9428 5.45502C28.2589 3.63124 26.0711 2.19125 23.616 1.29074C21.5126 0.519188 19.2807 0.127914 16.9826 0.127914C13.8802 0.127914 10.867 0.857581 8.26918 2.23798C3.25958 4.89972 0.305077 9.79223 0.741755 14.7023C0.96779 17.2431 1.96318 19.6617 3.6204 21.6968C5.18022 23.6122 7.29028 25.158 9.72236 26.1669C11.2178 26.7872 12.6963 27.0795 14.2619 27.389L14.4451 27.4253C14.8762 27.5106 14.9921 27.6278 15.022 27.6742C15.0773 27.7604 15.0484 27.9302 15.0262 28.0238C15.0057 28.1101 14.9846 28.1962 14.9635 28.2824C14.7954 28.9678 14.6216 29.6767 14.7581 30.4583C14.9151 31.3567 15.4761 31.872 16.2974 31.8721H16.2976C17.181 31.8721 18.1864 31.2795 18.8516 30.8875L18.9404 30.8352C20.5275 29.9032 22.0227 28.8518 23.1479 28.04C25.6102 26.2635 28.4011 24.2499 30.4935 21.6449C32.6005 19.0212 33.593 15.6497 33.2234 12.3811ZM10.8513 17.3519H8.03886C7.61384 17.3519 7.26929 17.0073 7.26929 16.5823V10.679C7.26929 10.254 7.61384 9.90942 8.03886 9.90942C8.46388 9.90942 8.80843 10.254 8.80843 10.679V15.8127H10.8512C11.2762 15.8127 11.6208 16.1573 11.6208 16.5823C11.6209 17.0073 11.2763 17.3519 10.8513 17.3519ZM13.7853 16.5614C13.7853 16.9864 13.4407 17.331 13.0157 17.331C12.5907 17.331 12.2461 16.9864 12.2461 16.5614V10.6581C12.2461 10.2331 12.5907 9.88854 13.0157 9.88854C13.4407 9.88854 13.7853 10.2331 13.7853 10.6581V16.5614ZM20.7416 16.5614C20.7416 16.8949 20.5269 17.1904 20.2097 17.2934C20.1314 17.3188 20.0513 17.3311 19.9721 17.3311C19.7303 17.3311 19.4968 17.2169 19.3492 17.0136L16.5779 13.1968V16.5615C16.5779 16.9865 16.2334 17.3311 15.8084 17.3311C15.3833 17.3311 15.0388 16.9865 15.0388 16.5615V10.8271C15.0388 10.4936 15.2535 10.1981 15.5707 10.0951C15.888 9.99221 16.2353 10.105 16.4312 10.3749L19.2024 14.1917V10.6581C19.2024 10.2331 19.547 9.88854 19.972 9.88854C20.397 9.88854 20.7416 10.2331 20.7416 10.6581V16.5614ZM26.3492 17.2098H22.5404C22.1154 17.2098 21.7708 16.8653 21.7708 16.4403V13.4887V10.537C21.7708 10.1119 22.1154 9.76738 22.5404 9.76738H26.231C26.6561 9.76738 27.0006 10.1119 27.0006 10.537C27.0006 10.962 26.6561 11.3065 26.231 11.3065H23.31V12.7191H25.6805C26.1055 12.7191 26.45 13.0637 26.45 13.4887C26.45 13.9137 26.1055 14.2583 25.6805 14.2583H23.31V15.6707H26.3492C26.7743 15.6707 27.1188 16.0152 27.1188 16.4403C27.1188 16.8653 26.7743 17.2098 26.3492 17.2098Z" fill="white"/>
+                                            </svg>
+                                            加入LINE群組
+                                            <span></span></a>
+                                    </div>
+                                    <div class="link-box">
+                                        <a href="https://t.me/+CxfK-nvOE9U4NjBl" class="btn-1 btn-large color-telegram">
+                                            <svg width="48" height="48" viewBox="0 0 34 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M30.0737 0.192749C30.4792 0.02208 30.923 -0.0367824 31.359 0.0222872C31.795 0.0813569 32.2071 0.2562 32.5526 0.528617C32.8981 0.801035 33.1642 1.16107 33.3233 1.57124C33.4824 1.98142 33.5287 2.42674 33.4573 2.86086L29.7357 25.4348C29.3747 27.6122 26.9855 28.861 24.9886 27.7763C23.3181 26.8689 20.8371 25.4708 18.6055 24.0121C17.4896 23.2819 14.0716 20.9436 14.4917 19.2797C14.8527 17.8571 20.5959 12.511 23.8777 9.33258C25.1658 8.08385 24.5783 7.36349 23.0572 8.51212C19.2799 11.364 13.2151 15.7009 11.2099 16.9217C9.44101 17.9982 8.51883 18.182 7.41614 17.9982C5.40439 17.6634 3.53869 17.1449 2.01593 16.5132C-0.0417615 15.6599 0.0583336 12.831 2.01429 12.0072L30.0737 0.192749Z" fill="white"/>
+                                                </svg>
+                                            加入TG群組
+                                            <span></span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slide Item -->
+            </div>
+        </div>
+        <div class="banner-slider-nav">
+            <div class="banner-slider-control banner-slider-button-prev"><span><i class="icon-5"></i></span></div>
+            <div class="banner-slider-control banner-slider-button-next"><span><i class="icon-4"></i></span> </div>
+        </div>
+        <div class="banner-shape"><img src="assets/images/shape/banner-shape.svg" alt=""></div>
+    </section>
+
+    <section class="service-1-section">
+        <div class="auto-container">
+            <div class="section_heading text-center mb_90">
+       
+                <h2 class="section_heading_title_big">加入，每日問候圖創作分享群，有什麼好處</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <div class="service-1-block text-center wow fadeInLeft" data-wow-delay=".2s" data-wow-duration=".8s">
+                        <svg class="service-1-icon" width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M23.2212 3.75C18.0571 3.75 13.1045 5.80142 9.45297 9.45297C5.80142 13.1045 3.75 18.0571 3.75 23.2212V96.7788C3.75 100.452 4.76683 103.888 6.53654 106.817L52.35 61.0038C53.3545 59.9991 54.5471 59.202 55.8597 58.6582C57.1723 58.1144 58.5792 57.8345 60 57.8345C61.4208 57.8345 62.8277 58.1144 64.1403 58.6582C65.4529 59.202 66.6455 59.9991 67.65 61.0038L113.463 106.822C115.288 103.789 116.251 100.317 116.25 96.7788V23.2212C116.25 18.0571 114.199 13.1045 110.547 9.45297C106.895 5.80142 101.943 3.75 96.7788 3.75H23.2212ZM96.7788 38.3654C96.7788 41.8081 95.4112 45.1098 92.9769 47.5442C90.5425 49.9785 87.2408 51.3462 83.7981 51.3462C80.3554 51.3462 77.0536 49.9785 74.6193 47.5442C72.1849 45.1098 70.8173 41.8081 70.8173 38.3654C70.8173 34.9227 72.1849 31.621 74.6193 29.1866C77.0536 26.7522 80.3554 25.3846 83.7981 25.3846C87.2408 25.3846 90.5425 26.7522 92.9769 29.1866C95.4112 31.621 96.7788 34.9227 96.7788 38.3654ZM107.466 113.057L61.5317 67.1221C61.126 66.7165 60.5758 66.4887 60.0022 66.4887C59.4285 66.4887 58.8783 66.7165 58.4726 67.1221L12.5337 113.057C15.7085 115.141 19.4235 116.251 23.2212 116.25H96.7788C100.577 116.251 104.291 115.141 107.466 113.057Z" fill="#3574F2"/>
+                            </svg>
+                        <h4 class="service-1-title">每日更新</h4>
+                        <p class="service-1-text">一張真人畫家創作的長輩圖，一張AI生成的問候圖</p>
+                        <!-- <div class="service-1-link"><a href="service-details.html"><i class="icon-4"></i></a></div> -->
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <div class="service-1-block text-center wow fadeInLeft" data-wow-delay=".2s" data-wow-duration="1s">
+                        <svg class="service-1-icon" width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M97.5 3.75H22.5C12.1444 3.75 3.75 12.1444 3.75 22.5V97.5C3.75 107.856 12.1444 116.25 22.5 116.25H97.5C107.856 116.25 116.25 107.856 116.25 97.5V22.5C116.25 12.1444 107.856 3.75 97.5 3.75ZM33.75 48.75H24.2062V57.1875H33.75V62.8125H24.2062V76.875H18.75V43.125H33.75V48.75ZM57.1406 76.875H51.4763L46.8431 62.8125H44.7337V76.875H39.375V43.125H48.75C53.9212 43.125 58.125 47.5406 58.125 52.9688C58.125 57.0881 55.7006 60.6263 52.2731 62.0906L57.1406 76.875ZM78.75 48.75H69.2062V57.1875H78.75V62.8125H69.2062V71.25H78.75V76.875H63.75V43.125H78.75V48.75ZM101.25 48.75H91.7062V57.1875H101.25V62.8125H91.7062V71.25H101.25V76.875H86.25V43.125H101.25V48.75Z" fill="#3574F2"/>
+                            <path d="M48.7505 48.75H44.7324V57.1875H48.7505C50.9668 57.1875 52.7687 55.2938 52.7687 52.9688C52.7687 50.6437 50.9668 48.75 48.7505 48.75Z" fill="#3574F2"/>
+                            </svg>
+                        <h4 class="service-1-title">免費領取</h4>
+                        <p class="service-1-text">入群即可免費獲取所有圖片</p>
+                        <!-- <div class="service-1-link"><a href="service-details.html"><i class="icon-4"></i></a></div> -->
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <div class="service-1-block text-center wow fadeInLeft" data-wow-delay=".2s" data-wow-duration="1.2s">              
+                        <svg class="service-1-icon" width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M105 60C105 55.725 107.419 52.0125 110.962 50.1C114.337 48.2437 116.25 44.4187 116.25 40.5375V16.25C116.25 10.0625 111.188 5 105 5H15C8.8125 5 3.80625 10.0062 3.80625 16.1937V40.5375C3.80625 44.4187 5.6625 48.2437 9.09375 50.0437C12.6375 52.0125 15 55.725 15 60C15 64.275 12.5813 68.0438 9.0375 69.9C5.6625 71.7563 3.75 75.5813 3.75 79.4625V103.75C3.75 109.938 8.8125 115 15 115H105C111.188 115 116.25 109.938 116.25 103.75V79.4625C116.25 75.5813 114.337 71.7563 110.962 69.9C107.419 67.9875 105 64.275 105 60ZM74.0625 83.0625L60 74.0625L45.9375 83.1188C43.8 84.4688 41.0437 82.5 41.7188 80.025L45.9375 63.825L33 53.25C32.5619 52.8884 32.2428 52.4032 32.0843 51.8577C31.9257 51.3122 31.935 50.7316 32.111 50.1914C32.287 49.6513 32.6215 49.1767 33.071 48.8293C33.5205 48.4819 34.0642 48.2779 34.6312 48.2437L51.2812 47.2875L57.3562 31.8187C58.3125 29.4562 61.6875 29.4562 62.5875 31.8187L68.6625 47.3438L85.3125 48.3C87.8438 48.4687 88.9125 51.675 86.9438 53.3063L74.0062 63.8812L78.2812 79.9688C78.9563 82.5 76.2 84.4688 74.0625 83.0625Z" fill="#3574F2"/>
+                            </svg>
+    
+                        <h4 class="service-1-title">互動樂趣</h4>
+                        <p class="service-1-text">參與投票、收藏喜愛的圖片</p>
+                        <!-- <div class="service-1-link"><a href="service-details.html"><i class="icon-4"></i></a></div> -->
+                    </div>
+                </div>
+                <div class="col-md-6 col-12">
+                    <div class="service-1-block text-center wow fadeInLeft" data-wow-delay=".2s" data-wow-duration="1.2s">              
+                        <svg class="service-1-icon" width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_8003_18516)">
+                            <path d="M59.9988 120C92.7653 120 120 92.7658 120 60C120 27.1764 92.705 0 59.9385 0C27.1168 0 0 27.1764 0 60C0 92.7658 27.1745 120 59.9988 120ZM37.2366 92.1158C35.7658 92.1158 34.4707 90.8232 34.4707 89.4127V39.4696C34.4707 36.9397 35.7056 35.0573 38.1176 33.9982C40.2359 33.0595 42.0581 32.5299 46.5884 32.5299C57.2354 32.5299 63.8815 37.7654 73.8834 37.7654C78.7074 37.7654 81.2374 36.5281 82.7684 36.5281C84.7663 36.5281 86.2973 37.7654 86.2973 39.4696V68.4707C86.2973 71.1186 85.1779 72.8227 82.6479 73.9421C80.4719 74.941 78.5894 75.4706 74.1771 75.4706C63.9418 75.4706 57.4111 70.2953 46.8821 70.2953C43.293 70.2953 40.9412 70.9981 39.882 71.4699V89.4127C39.882 90.8835 38.7651 92.1158 37.2366 92.1158Z" fill="#3574F2"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_8003_18516">
+                            <rect width="120" height="120" fill="white"/>
+                            </clipPath>
+                            </defs>
+                            </svg>
+                        <h4 class="service-1-title">跨文化交流</h4>
+                        <p class="service-1-text">簡體、繁體群組，體驗不同文化魅力</p>
+                        <!-- <div class="service-1-link"><a href="service-details.html"><i class="icon-4"></i></a></div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-chooseus-1-section">
+        <div class="section_heading text-center mb_90">
+            <h2 class="section_heading_title_big">群組特色</h2>
+        </div>
+        <div class="auto-container">
+            <div class="row">
+                <div class="col-lg-6 pe-lg-5">
+                    <div class="section_heading mb_20">
+                        <h2 class="section_heading_title_big h2-tips">- AI生圖功能：發送文字描述，即刻獲得專屬問候圖<br/>- 嚴格的群管理：杜絕惱人的廣告，保證群內優質交流</h2>
+                    </div>
+                    <div class="">
+                        <div class="why-chooseus-1-block d-flex">
+                            <div class="why-chooseus-1-count">1</div>
+                            <div class="why-chooseus-1-content flex-grow-1">
+                                <h4 class="why-chooseus-1-title mb_15">AI生圖功能</h4>
+                                <p class="why-chooseus-1-text2">發送文字描述，即刻獲得專屬問候圖</p>
+                            </div>
+                        </div>
+                        <div class="why-chooseus-1-block d-flex">
+                            <div class="why-chooseus-1-count">2</div>
+                            <div class="why-chooseus-1-content flex-grow-1">
+                                <h4 class="why-chooseus-1-title mb_15">嚴格的群管理</h4>
+                                <p class="why-chooseus-1-text2">杜絕惱人的廣告，保證群內優質交流</p>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="why-chooseus-1-image text-lg-end">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="why-chooseus-1-section">
+        <div class="section_heading text-center mb_90">
+            <h2 class="section_heading_title_big">加入群組</h2>
+            <h2 class="section_heading_title_big h2-tips">可以分享你用AI創作的長輩圖</h2>
+        </div>
+        <div class="auto-container">
+          <div class="row gray-block">
+            <div class="col-12 col-lg-4 centered ">
+                <img class="service-1-icon" style="width: 200px; height: 200px;" src="assets/images/resource/qr-line-me.svg" alt="">
+                <div class="link-box">
+                    <a href="https://line.me/R/ti/g/ypZeRn5NFR" class="btn-1 btn-large color-line">
+                    <svg width="48" height="48" viewBox="0 0 34 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M33.2234 12.3811L33.2237 12.381L33.2136 12.2974C33.2135 12.296 33.2134 12.2949 33.2132 12.2935C33.2131 12.2922 33.213 12.2911 33.2127 12.2899L33.1749 11.9757C33.1673 11.9126 33.1586 11.8407 33.1488 11.7587L33.1408 11.6934L33.1247 11.6954C32.727 9.43383 31.6347 7.28759 29.9428 5.45502C28.2589 3.63124 26.0711 2.19125 23.616 1.29074C21.5126 0.519188 19.2807 0.127914 16.9826 0.127914C13.8802 0.127914 10.867 0.857581 8.26918 2.23798C3.25958 4.89972 0.305077 9.79223 0.741755 14.7023C0.96779 17.2431 1.96318 19.6617 3.6204 21.6968C5.18022 23.6122 7.29028 25.158 9.72236 26.1669C11.2178 26.7872 12.6963 27.0795 14.2619 27.389L14.4451 27.4253C14.8762 27.5106 14.9921 27.6278 15.022 27.6742C15.0773 27.7604 15.0484 27.9302 15.0262 28.0238C15.0057 28.1101 14.9846 28.1962 14.9635 28.2824C14.7954 28.9678 14.6216 29.6767 14.7581 30.4583C14.9151 31.3567 15.4761 31.872 16.2974 31.8721H16.2976C17.181 31.8721 18.1864 31.2795 18.8516 30.8875L18.9404 30.8352C20.5275 29.9032 22.0227 28.8518 23.1479 28.04C25.6102 26.2635 28.4011 24.2499 30.4935 21.6449C32.6005 19.0212 33.593 15.6497 33.2234 12.3811ZM10.8513 17.3519H8.03886C7.61384 17.3519 7.26929 17.0073 7.26929 16.5823V10.679C7.26929 10.254 7.61384 9.90942 8.03886 9.90942C8.46388 9.90942 8.80843 10.254 8.80843 10.679V15.8127H10.8512C11.2762 15.8127 11.6208 16.1573 11.6208 16.5823C11.6209 17.0073 11.2763 17.3519 10.8513 17.3519ZM13.7853 16.5614C13.7853 16.9864 13.4407 17.331 13.0157 17.331C12.5907 17.331 12.2461 16.9864 12.2461 16.5614V10.6581C12.2461 10.2331 12.5907 9.88854 13.0157 9.88854C13.4407 9.88854 13.7853 10.2331 13.7853 10.6581V16.5614ZM20.7416 16.5614C20.7416 16.8949 20.5269 17.1904 20.2097 17.2934C20.1314 17.3188 20.0513 17.3311 19.9721 17.3311C19.7303 17.3311 19.4968 17.2169 19.3492 17.0136L16.5779 13.1968V16.5615C16.5779 16.9865 16.2334 17.3311 15.8084 17.3311C15.3833 17.3311 15.0388 16.9865 15.0388 16.5615V10.8271C15.0388 10.4936 15.2535 10.1981 15.5707 10.0951C15.888 9.99221 16.2353 10.105 16.4312 10.3749L19.2024 14.1917V10.6581C19.2024 10.2331 19.547 9.88854 19.972 9.88854C20.397 9.88854 20.7416 10.2331 20.7416 10.6581V16.5614ZM26.3492 17.2098H22.5404C22.1154 17.2098 21.7708 16.8653 21.7708 16.4403V13.4887V10.537C21.7708 10.1119 22.1154 9.76738 22.5404 9.76738H26.231C26.6561 9.76738 27.0006 10.1119 27.0006 10.537C27.0006 10.962 26.6561 11.3065 26.231 11.3065H23.31V12.7191H25.6805C26.1055 12.7191 26.45 13.0637 26.45 13.4887C26.45 13.9137 26.1055 14.2583 25.6805 14.2583H23.31V15.6707H26.3492C26.7743 15.6707 27.1188 16.0152 27.1188 16.4403C27.1188 16.8653 26.7743 17.2098 26.3492 17.2098Z" fill="white"/>
+                        </svg>
+                        LINE每日長輩問後圖分享群
+                        <span></span></a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 centered ">
+                <img class="service-1-icon" style="width: 200px; height: 200px;" src="assets/images/resource/qr-t-me01.svg" alt="">
+                <div class="link-box">
+                    <a href="https://t.me/+CxfK-nvOE9U4NjBl" class="btn-1 btn-large color-telegram">
+                        <svg width="48" height="48" viewBox="0 0 34 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M30.0737 0.192749C30.4792 0.02208 30.923 -0.0367824 31.359 0.0222872C31.795 0.0813569 32.2071 0.2562 32.5526 0.528617C32.8981 0.801035 33.1642 1.16107 33.3233 1.57124C33.4824 1.98142 33.5287 2.42674 33.4573 2.86086L29.7357 25.4348C29.3747 27.6122 26.9855 28.861 24.9886 27.7763C23.3181 26.8689 20.8371 25.4708 18.6055 24.0121C17.4896 23.2819 14.0716 20.9436 14.4917 19.2797C14.8527 17.8571 20.5959 12.511 23.8777 9.33258C25.1658 8.08385 24.5783 7.36349 23.0572 8.51212C19.2799 11.364 13.2151 15.7009 11.2099 16.9217C9.44101 17.9982 8.51883 18.182 7.41614 17.9982C5.40439 17.6634 3.53869 17.1449 2.01593 16.5132C-0.0417615 15.6599 0.0583336 12.831 2.01429 12.0072L30.0737 0.192749Z" fill="white"/>
+                            </svg>
+                            TG每日長輩問後圖分享群-繁體
+                        <span></span></a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-4 centered ">
+                <img class="service-1-icon" style="width: 200px; height: 200px;" src="assets/images/resource/qr-t-me02.svg" alt="">
+                <div class="link-box">
+                    <a href="https://t.me/+PSsPAwPbSPA4OTVl" class="btn-1 btn-large color-telegram">
+                        <svg width="48" height="48" viewBox="0 0 34 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M30.0737 0.192749C30.4792 0.02208 30.923 -0.0367824 31.359 0.0222872C31.795 0.0813569 32.2071 0.2562 32.5526 0.528617C32.8981 0.801035 33.1642 1.16107 33.3233 1.57124C33.4824 1.98142 33.5287 2.42674 33.4573 2.86086L29.7357 25.4348C29.3747 27.6122 26.9855 28.861 24.9886 27.7763C23.3181 26.8689 20.8371 25.4708 18.6055 24.0121C17.4896 23.2819 14.0716 20.9436 14.4917 19.2797C14.8527 17.8571 20.5959 12.511 23.8777 9.33258C25.1658 8.08385 24.5783 7.36349 23.0572 8.51212C19.2799 11.364 13.2151 15.7009 11.2099 16.9217C9.44101 17.9982 8.51883 18.182 7.41614 17.9982C5.40439 17.6634 3.53869 17.1449 2.01593 16.5132C-0.0417615 15.6599 0.0583336 12.831 2.01429 12.0072L30.0737 0.192749Z" fill="white"/>
+                            </svg>
+                            TG每日长辈问后图分享群-简体
+                        <span></span></a>
+                </div>
+            </div>
+       
+        </div>
+    </section>
+    <section class="why-chooseus-1-section">
+        <div class="section_heading text-center mb_90">
+            <h2 class="section_heading_title_big">群內常駐畫家每日創作問候圖欣賞</h2>
+        </div>
+        <div class="outer-container">
+            <div class="scroll-container">
+                <div class="scroll-content">
+                    <div class="scroll-item">
+                        <img src="assets/images/slider-image/image01.jpg" alt="">
+                    </div>
+                    <div class="scroll-item">
+                        <img src="assets/images/slider-image/image02.jpg" alt="">
+                    </div>
+                    <div class="scroll-item">
+                        <img src="assets/images/slider-image/image03.jpg" alt="">
+                    </div>
+                    <div class="scroll-item">
+                        <img src="assets/images/slider-image/image04.jpg" alt="">
+                    </div>
+                    <div class="scroll-item">
+                        <img src="assets/images/slider-image/image05.jpg" alt="">
+                    </div>
+                    <div class="scroll-item">
+                        <img src="assets/images/slider-image/image06.jpg" alt="">
+                    </div>
+                    <div class="scroll-item">
+                        <img src="assets/images/slider-image/image07.jpg" alt="">
+                    </div>
+                    <div class="scroll-item">
+                        <img src="assets/images/slider-image/image08.jpg" alt="">
+                    </div>
+                    <div class="scroll-item">
+                        <img src="assets/images/slider-image/image09.jpg" alt="">
+                    </div>
+                    <div class="scroll-item">
+                        <img src="assets/images/slider-image/image10.jpg" alt="">
+                    </div>
+                    <!-- 你可以根据需要添加更多项目 -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog-1-section theme-gray-bg">
+        <div class="auto-container">
+            <div class="section_heading text-center mb_60">
+                <h2 class="section_heading_title_big">AI創作問候圖分享</h2>
+            </div>
+            <div class="container">
+                <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-3">
+                    <img src="assets/images/photo-gallery/01.jpg" alt="">
+                    <img src="assets/images/photo-gallery/02.jpg" alt="">
+                    <img src="assets/images/photo-gallery/03.jpg" alt="">
+                    <img src="assets/images/photo-gallery/04.jpg" alt="">
+                    <img src="assets/images/photo-gallery/05.jpg" alt="">
+                    <img src="assets/images/photo-gallery/06.jpg" alt="">
+                    <img src="assets/images/photo-gallery/07.jpg" alt="">
+                    <img src="assets/images/photo-gallery/08.jpg" alt="">
+                    <img src="assets/images/photo-gallery/09.jpg" alt="">
+                    <img src="assets/images/photo-gallery/10.jpg" alt="">
+                    <img src="assets/images/photo-gallery/11.jpg" alt="">
+                    <img src="assets/images/photo-gallery/12.jpg" alt="">
+                    <img src="assets/images/photo-gallery/13.jpg" alt="">
+                    <img src="assets/images/photo-gallery/14.jpg" alt="">
+                    <img src="assets/images/photo-gallery/15.jpg" alt="">
+                    <img src="assets/images/photo-gallery/16.jpg" alt="">
+                    <img src="assets/images/photo-gallery/17.jpg" alt="">
+                    <img src="assets/images/photo-gallery/18.jpg" alt="">
+                    <img src="assets/images/photo-gallery/19.jpg" alt="">
+                    <img src="assets/images/photo-gallery/20.jpg" alt="">
+                </div>
+            </div>
+            <div class="row bottom-block ">
+                <h2 class="section_heading_title_big">加入我們，開啟每日問候新體驗！<br>讓我們一起傳遞溫暖，分享快樂！</h2>
+            </div>
+           
+        </div>
+    </section>
+    <section class="blog-1-section theme-dark-bg">
+        <div class="auto-container">
+            <div class="section_heading text-center">
+                <div class="bottom-block-area">
+                    <svg width="91" height="90" viewBox="0 0 91 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M50.3717 11.8052L82.7492 67.8827C83.2429 68.7378 83.5028 69.7077 83.5028 70.6951C83.5028 71.6825 83.2429 72.6525 82.7492 73.5076C82.2555 74.3627 81.5455 75.0728 80.6904 75.5665C79.8353 76.0602 78.8653 76.3201 77.8779 76.3202H13.1229C12.1355 76.3201 11.1655 76.0602 10.3105 75.5665C9.45537 75.0728 8.7453 74.3627 8.25162 73.5076C7.75794 72.6525 7.49804 71.6825 7.49805 70.6951C7.49805 69.7077 7.75796 68.7378 8.25165 67.8827L40.6292 11.8052C42.7929 8.05518 48.2042 8.05518 50.3717 11.8052ZM45.5004 56.2502C44.5058 56.2502 43.552 56.6453 42.8488 57.3485C42.1455 58.0518 41.7504 59.0056 41.7504 60.0002C41.7504 60.9947 42.1455 61.9486 42.8488 62.6518C43.552 63.3551 44.5058 63.7502 45.5004 63.7502C46.495 63.7502 47.4488 63.3551 48.1521 62.6518C48.8553 61.9486 49.2504 60.9947 49.2504 60.0002C49.2504 59.0056 48.8553 58.0518 48.1521 57.3485C47.4488 56.6453 46.495 56.2502 45.5004 56.2502ZM45.5004 30.0002C44.5819 30.0003 43.6954 30.3375 43.009 30.9479C42.3226 31.5582 41.8841 32.3992 41.7767 33.3114L41.7504 33.7502V48.7502C41.7515 49.706 42.1175 50.6253 42.7736 51.3203C43.4297 52.0153 44.3265 52.4336 45.2806 52.4896C46.2348 52.5456 47.1743 52.2351 47.9073 51.6217C48.6402 51.0082 49.1113 50.138 49.2242 49.1889L49.2504 48.7502V33.7502C49.2504 32.7556 48.8553 31.8018 48.1521 31.0985C47.4488 30.3953 46.495 30.0002 45.5004 30.0002Z" fill="#FFD000"/>
+                        </svg>
+                    <h2 class="section_heading_title_big">注意事項</h2>
+                </div>
+                <p>本群組提供免費服務，但某些高級功能可能需要額外付費。詳情請參閱群組公告。<br>加入我們，開啟每日問候新體驗！讓我們一起傳遞溫暖，分享快樂！</p>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <footer class="footer-1">
+        <div class="footer-bottom">
+            <div class="auto-container">    
+                <div class="footer-bottom-row">
+                    <div class="footer-bottom-text">Copyright 2022 by 長輩圖問候圖 All Right Reserved.</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+	
+</div>
+
+<!--Scroll to top-->
+<div class="scroll-to-top">
+    <div>
+        <div class="scroll-top-inner">
+            <div class="scroll-bar">
+                <div class="bar-inner"></div>
+            </div>
+            <div class="scroll-bar-text">Go To Top</div>
+        </div>
+    </div>
+</div>
+<!-- Scroll to top end -->
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.nice-select.min.js"></script>
+<script src="assets/js/jquery.fancybox.js"></script>
+<script src="assets/js/isotope.js"></script>
+<script src="assets/js/appear.js"></script>
+<script src="assets/js/wow.js"></script>
+<script src="assets/js/TweenMax.min.js"></script>
+<script src="assets/js/swiper.min.js"></script>
+<script src="assets/js/jquery.ajaxchimp.min.js"></script>
+<script src="assets/js/parallax-scroll.js"></script>
+
+<script src="assets/js/script.js"></script>
+<script src="assets/js/scroll-item.js"></script>
+
+</body>
+</html>
