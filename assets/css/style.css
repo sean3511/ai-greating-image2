@@ -576,7 +576,10 @@ a.btn-1.btn-alt:hover {
 	z-index: 9999;
 	top: 0px;
 	left: 0px;
-	background: #FFF;
+	
+    background-image:url(../images/resource/header-bg.png) ;
+    background-position: bottom center;
+    background-size: cover;
 	clear: both;
 }
 /* Header Top */
