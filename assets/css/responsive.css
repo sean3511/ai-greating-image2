@@ -98,6 +98,7 @@
 	}
 }
 @media only screen and (min-width: 768px){
+	
 	.main-menu .navigation > li > ul,
 	.main-menu .navigation > li > ul > li > ul{
 		display:block !important;
@@ -106,6 +107,12 @@
 	}
 }
 @media only screen and (max-width: 767px){	
+	.h2-tips.SH01::before{
+		display: none;
+	 }
+	 .h2-tips.SH01::after{
+		 display: none;
+	 }
 	.why-chooseus-2-wrap {
 		padding-left: 20px;
 		padding-right: 20px;
