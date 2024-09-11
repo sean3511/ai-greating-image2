@@ -359,16 +359,24 @@ a:hover, a {
     text-align: center;
 }
 .theme-dark-bg {
+    min-height: 315px;
     padding: 80px 0 !important;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) -20.77%, rgba(0, 0, 0, 0.50) 100.04%), 
-    linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(../images/resource/bottom-bg.jpg) lightgray 50% / cover no-repeat;
+    linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(../images/resource/section07-bg.jpg) lightgray 50% / cover no-repeat;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .theme-dark-bg h2{
     color: #FFF;
 }
 .theme-dark-bg p{
     color: #FFF;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px;
 }
 
 .theme-gray-bg {
