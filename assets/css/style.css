@@ -2719,6 +2719,31 @@ p.fundraise-1-text {
     bottom: 0;
     background-image: url(../images/resource/section4Sticker_top.png);
 }
+.SH05{
+    display: inline-block;
+}
+.SH05::before{
+    content: "";
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 50%; /* ★ */
+    transform: translateY(-50%); /* ★ */
+    left: -120px;
+    bottom: 0;
+    background-image: url(../images/resource/section4Sticker_top.png);
+}
+.SH05::after{
+    content: "";
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 50%; /* ★ */
+    transform: translateY(-50%); /* ★ */
+    right: -120px;
+    bottom: 0;
+    background-image: url(../images/resource/section4Sticker_top.png);
+}
 .swiper-item{
     padding: 60px 120px;
     display: flex !important; 
@@ -2796,6 +2821,9 @@ section.why-chooseus-1-section {
 }
 .section04-bg{
     background: linear-gradient(180deg, #E4C495 0%, rgba(228, 196, 149, 0.00) 100%), #EFE1C9;
+}
+.section05-bg{
+    background: #EFE0C8;
 }
 .why-chooseus-1-count {
     background: #FABE49;
