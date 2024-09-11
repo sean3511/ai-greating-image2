@@ -21,6 +21,7 @@
 
 <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
 <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
 <!-- Responsive -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -187,6 +188,7 @@
     </section>
 
     <section class="why-chooseus-1-section section01-bg">
+        <img class="s1bg-item" src="assets/images/resource/sc-bg-item.png" alt="">
         <div class="section_heading text-center mb_90">
             <h2 class="section_heading_title_big">加入群組</h2>
             <h2 class="section_heading_title_big h2-tips SH01">可以分享你用AI創作的長輩圖</h2>
@@ -232,65 +234,78 @@
         </div>
     </section>
 
-    <section class="service-1-section">
+    <section class="why-chooseus-1-section section02-bg">
+        <div class="section_heading text-center mb_90">
+            <h2 class="section_heading_title_big SH02">用戶故事分享</h2>
+        </div>
         <div class="auto-container">
-            <div class="section_heading text-center mb_90">
-       
-                <h2 class="section_heading_title_big">加入，每日問候圖創作分享群，有什麼好處</h2>
-            </div>
-            <div class="row">
-                <div class="col-md-6 col-12">
-                    <div class="service-1-block text-center wow fadeInLeft" data-wow-delay=".2s" data-wow-duration=".8s">
-                        <svg class="service-1-icon" width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M23.2212 3.75C18.0571 3.75 13.1045 5.80142 9.45297 9.45297C5.80142 13.1045 3.75 18.0571 3.75 23.2212V96.7788C3.75 100.452 4.76683 103.888 6.53654 106.817L52.35 61.0038C53.3545 59.9991 54.5471 59.202 55.8597 58.6582C57.1723 58.1144 58.5792 57.8345 60 57.8345C61.4208 57.8345 62.8277 58.1144 64.1403 58.6582C65.4529 59.202 66.6455 59.9991 67.65 61.0038L113.463 106.822C115.288 103.789 116.251 100.317 116.25 96.7788V23.2212C116.25 18.0571 114.199 13.1045 110.547 9.45297C106.895 5.80142 101.943 3.75 96.7788 3.75H23.2212ZM96.7788 38.3654C96.7788 41.8081 95.4112 45.1098 92.9769 47.5442C90.5425 49.9785 87.2408 51.3462 83.7981 51.3462C80.3554 51.3462 77.0536 49.9785 74.6193 47.5442C72.1849 45.1098 70.8173 41.8081 70.8173 38.3654C70.8173 34.9227 72.1849 31.621 74.6193 29.1866C77.0536 26.7522 80.3554 25.3846 83.7981 25.3846C87.2408 25.3846 90.5425 26.7522 92.9769 29.1866C95.4112 31.621 96.7788 34.9227 96.7788 38.3654ZM107.466 113.057L61.5317 67.1221C61.126 66.7165 60.5758 66.4887 60.0022 66.4887C59.4285 66.4887 58.8783 66.7165 58.4726 67.1221L12.5337 113.057C15.7085 115.141 19.4235 116.251 23.2212 116.25H96.7788C100.577 116.251 104.291 115.141 107.466 113.057Z" fill="#3574F2"/>
-                            </svg>
-                        <h4 class="service-1-title">每日更新</h4>
-                        <p class="service-1-text">一張真人畫家創作的長輩圖，一張AI生成的問候圖</p>
-                        <!-- <div class="service-1-link"><a href="service-details.html"><i class="icon-4"></i></a></div> -->
+            <div class="swiper mySwiper S2-swiperBG">
+                <div class="swiper-wrapper ">
+                  <div class="swiper-slide swiper-item">
+                    <div class="swiper-avatar">
+                        <img src="assets/images/resource/s2-avatar/a1.png" alt="">
                     </div>
-                </div>
-                <div class="col-md-6 col-12">
-                    <div class="service-1-block text-center wow fadeInLeft" data-wow-delay=".2s" data-wow-duration="1s">
-                        <svg class="service-1-icon" width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M97.5 3.75H22.5C12.1444 3.75 3.75 12.1444 3.75 22.5V97.5C3.75 107.856 12.1444 116.25 22.5 116.25H97.5C107.856 116.25 116.25 107.856 116.25 97.5V22.5C116.25 12.1444 107.856 3.75 97.5 3.75ZM33.75 48.75H24.2062V57.1875H33.75V62.8125H24.2062V76.875H18.75V43.125H33.75V48.75ZM57.1406 76.875H51.4763L46.8431 62.8125H44.7337V76.875H39.375V43.125H48.75C53.9212 43.125 58.125 47.5406 58.125 52.9688C58.125 57.0881 55.7006 60.6263 52.2731 62.0906L57.1406 76.875ZM78.75 48.75H69.2062V57.1875H78.75V62.8125H69.2062V71.25H78.75V76.875H63.75V43.125H78.75V48.75ZM101.25 48.75H91.7062V57.1875H101.25V62.8125H91.7062V71.25H101.25V76.875H86.25V43.125H101.25V48.75Z" fill="#3574F2"/>
-                            <path d="M48.7505 48.75H44.7324V57.1875H48.7505C50.9668 57.1875 52.7687 55.2938 52.7687 52.9688C52.7687 50.6437 50.9668 48.75 48.7505 48.75Z" fill="#3574F2"/>
-                            </svg>
-                        <h4 class="service-1-title">免費領取</h4>
-                        <p class="service-1-text">入群即可免費獲取所有圖片</p>
-                        <!-- <div class="service-1-link"><a href="service-details.html"><i class="icon-4"></i></a></div> -->
+                    <div class="swiper-text">
+                        <div class="swiper-head">
+                            <p class="swiper-name">李叔叔</p>
+                            <p class="swiper-title">早安的力量</p>
+                        </div>
+                        <p class="swiper-content">
+                            李叔叔喜歡向朋友分享他找到的健康小貼士。有一天，他學會了如何使用長輩圖來傳遞這些健康知識。他將「每日健康提醒」製作成有吸引力的圖片，在朋友圈和LINE群裡發送。朋友們看後紛紛讚賞，還會特地來詢問更多的健康知識，這讓李叔叔感覺自己成了大家的健康顧問。
+                        </p>
                     </div>
-                </div>
-                <div class="col-md-6 col-12">
-                    <div class="service-1-block text-center wow fadeInLeft" data-wow-delay=".2s" data-wow-duration="1.2s">              
-                        <svg class="service-1-icon" width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M105 60C105 55.725 107.419 52.0125 110.962 50.1C114.337 48.2437 116.25 44.4187 116.25 40.5375V16.25C116.25 10.0625 111.188 5 105 5H15C8.8125 5 3.80625 10.0062 3.80625 16.1937V40.5375C3.80625 44.4187 5.6625 48.2437 9.09375 50.0437C12.6375 52.0125 15 55.725 15 60C15 64.275 12.5813 68.0438 9.0375 69.9C5.6625 71.7563 3.75 75.5813 3.75 79.4625V103.75C3.75 109.938 8.8125 115 15 115H105C111.188 115 116.25 109.938 116.25 103.75V79.4625C116.25 75.5813 114.337 71.7563 110.962 69.9C107.419 67.9875 105 64.275 105 60ZM74.0625 83.0625L60 74.0625L45.9375 83.1188C43.8 84.4688 41.0437 82.5 41.7188 80.025L45.9375 63.825L33 53.25C32.5619 52.8884 32.2428 52.4032 32.0843 51.8577C31.9257 51.3122 31.935 50.7316 32.111 50.1914C32.287 49.6513 32.6215 49.1767 33.071 48.8293C33.5205 48.4819 34.0642 48.2779 34.6312 48.2437L51.2812 47.2875L57.3562 31.8187C58.3125 29.4562 61.6875 29.4562 62.5875 31.8187L68.6625 47.3438L85.3125 48.3C87.8438 48.4687 88.9125 51.675 86.9438 53.3063L74.0062 63.8812L78.2812 79.9688C78.9563 82.5 76.2 84.4688 74.0625 83.0625Z" fill="#3574F2"/>
-                            </svg>
-    
-                        <h4 class="service-1-title">互動樂趣</h4>
-                        <p class="service-1-text">參與投票、收藏喜愛的圖片</p>
-                        <!-- <div class="service-1-link"><a href="service-details.html"><i class="icon-4"></i></a></div> -->
+                  </div>
+                  <div class="swiper-slide swiper-item">
+                    <div class="swiper-avatar">
+                        <img src="assets/images/resource/s2-avatar/a2.png" alt="">
                     </div>
-                </div>
-                <div class="col-md-6 col-12">
-                    <div class="service-1-block text-center wow fadeInLeft" data-wow-delay=".2s" data-wow-duration="1.2s">              
-                        <svg class="service-1-icon" width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#clip0_8003_18516)">
-                            <path d="M59.9988 120C92.7653 120 120 92.7658 120 60C120 27.1764 92.705 0 59.9385 0C27.1168 0 0 27.1764 0 60C0 92.7658 27.1745 120 59.9988 120ZM37.2366 92.1158C35.7658 92.1158 34.4707 90.8232 34.4707 89.4127V39.4696C34.4707 36.9397 35.7056 35.0573 38.1176 33.9982C40.2359 33.0595 42.0581 32.5299 46.5884 32.5299C57.2354 32.5299 63.8815 37.7654 73.8834 37.7654C78.7074 37.7654 81.2374 36.5281 82.7684 36.5281C84.7663 36.5281 86.2973 37.7654 86.2973 39.4696V68.4707C86.2973 71.1186 85.1779 72.8227 82.6479 73.9421C80.4719 74.941 78.5894 75.4706 74.1771 75.4706C63.9418 75.4706 57.4111 70.2953 46.8821 70.2953C43.293 70.2953 40.9412 70.9981 39.882 71.4699V89.4127C39.882 90.8835 38.7651 92.1158 37.2366 92.1158Z" fill="#3574F2"/>
-                            </g>
-                            <defs>
-                            <clipPath id="clip0_8003_18516">
-                            <rect width="120" height="120" fill="white"/>
-                            </clipPath>
-                            </defs>
-                            </svg>
-                        <h4 class="service-1-title">跨文化交流</h4>
-                        <p class="service-1-text">簡體、繁體群組，體驗不同文化魅力</p>
-                        <!-- <div class="service-1-link"><a href="service-details.html"><i class="icon-4"></i></a></div> -->
+                    <div class="swiper-text">
+                        <div class="swiper-head">
+                            <p class="swiper-name">張阿姨</p>
+                            <p class="swiper-title">跨越距離的問候</p>
+                        </div>
+                        <p class="swiper-content">
+                            兒子兒媳搬到國外工作，張阿姨每天晚上都會發一張長輩圖給他們，包含「平安夜晚」和「注意健康」等祝福。兒子說，儘管相隔遙遠，每天看到母親的問候，還是讓他們覺得很安心和溫暖。
+                        </p>
                     </div>
+                  </div>
+                  <div class="swiper-slide swiper-item">
+                    <div class="swiper-avatar">
+                        <img src="assets/images/resource/s2-avatar/a3.png" alt="">
+                    </div>
+                    <div class="swiper-text">
+                        <div class="swiper-head">
+                            <p class="swiper-name">王爺爺</p>
+                            <p class="swiper-title">找到新愛好</p>
+                        </div>
+                        <p class="swiper-content">
+                            退休後的王爺爺總覺得日子有些無聊。偶然間，他參加了一個長青課程，學會了使用手機和製作長輩圖。從那天起，他開始每天研究新的創作，並將作品分享到LINE群。一時間，他成了群裡的紅人，每天都有朋友期待他的最新作品。這讓王爺爺的生活充滿了樂趣和成就感。
+                        </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide swiper-item">
+                    <div class="swiper-avatar">
+                        <img src="assets/images/resource/s2-avatar/a4.png" alt="">
+                    </div>
+                    <div class="swiper-text">
+                        <div class="swiper-head">
+                            <p class="swiper-name">劉伯伯</p>
+                            <p class="swiper-title">日常提醒</p>
+                        </div>
+                        <p class="swiper-content">
+                            劉伯伯住在一個趨於獨立的老人公寓裡，偶爾會忘記服藥。他的兒女為他設計了一系列「吃藥提醒」的長輩圖，每到該服藥的時間，就會自動發送到他的手機上。這個方法讓劉伯伯不但不再忘記吃藥，還感覺有了孩子們的陪伴。
+                        </p>
+                    </div>
+                  </div>
                 </div>
-            </div>
+             
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+            
         </div>
     </section>
+
 
     <section class="why-chooseus-1-section">
         <div class="section_heading text-center mb_90">
@@ -461,6 +476,7 @@
 
 <script src="assets/js/script.js"></script>
 <script src="assets/js/scroll-item.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 </body>
 </html>

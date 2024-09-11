@@ -2654,6 +2654,13 @@ p.fundraise-1-text {
     bottom: 0;
     background-image: url(../images/resource/section1Sticker_top_L.png);
 }
+.s1bg-item{
+    width: 597px;
+    height: 734px;
+    position: absolute;
+    right: 56px;
+    top: 0;
+}
 .h2-tips.SH01::after{
     content: "";
     width: 187px;
@@ -2663,6 +2670,79 @@ p.fundraise-1-text {
     bottom: 0;
     background-image: url(../images/resource/section1Sticker_top_R.png);
 }
+.SH02{
+    display: inline-block;
+}
+.SH02::before{
+    content: "";
+    width: 115px;
+    height: 120px;
+    position: absolute;
+    top: 50%; /* ★ */
+    transform: translateY(-50%); /* ★ */
+    left: -120px;
+    bottom: 0;
+    background-image: url(../images/resource/section2Sticker.png);
+}
+
+.swiper-item{
+    padding: 60px 120px;
+    display: flex !important; 
+    align-items: center;
+    gap: 36px;
+    border: 1px solid #000;
+    background: #FFF;
+    min-height: 645px;
+}
+.swiper-text{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.swiper-head{
+    display: flex;
+    flex-direction: column;
+}
+.swiper-name{
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.swiper-title{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px; 
+    margin-bottom: 0;
+}
+.swiper-content{
+    font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 70px; /* 218.75% */
+}
+.swiper-avatar img{
+    min-width: 200px;
+    min-height: 200px;
+    border-radius: 200000px;
+}
+.swiper-button-next{
+    background-image: url("../images/resource/swiper-arrow-R.png") !important;
+    background-size: auto;
+    width: 40px !important;
+    height: 40px !important;
+}
+.swiper-button-prev{
+    background-image: url("../images/resource/swiper-arrow-L.png") !important;
+    background-size: auto;
+    width: 40px !important;
+    height: 40px !important;
+}
+.swiper-button-next:after,.swiper-button-prev:after {
+   display: none;
+}
+
 /* why chooseus */
 section.why-chooseus-1-section {
     position: relative;
@@ -2670,6 +2750,10 @@ section.why-chooseus-1-section {
 }
 .section01-bg{
     background-image: url(../images/resource/section01-bg.jpg);
+    background-size: cover;
+}
+.section02-bg{
+    background: url(../images/resource/section02-bg.jpg);
     background-size: cover;
 }
 .why-chooseus-1-count {

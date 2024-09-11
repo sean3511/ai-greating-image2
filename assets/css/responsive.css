@@ -15,6 +15,9 @@
 	}
 }
 @media only screen and (max-width: 1400px){
+	.swiper-item{
+		flex-direction: column;
+	}
 	.main-menu .navigation>li:nth-last-child(-n+3)>ul>li>ul {
 	    left: auto;
 	    right: 100%;
@@ -107,10 +110,13 @@
 	}
 }
 @media only screen and (max-width: 767px){	
+
 	.h2-tips.SH01::before{
-	
+		display: none;
+
 	 }
 	 .h2-tips.SH01::after{
+		display: none;
 
 	 }
 	 .SMSticker-L{
