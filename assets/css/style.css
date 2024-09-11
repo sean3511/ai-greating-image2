@@ -2573,6 +2573,7 @@ section.fundraise-1-section.white-bg {
     position: relative;
     background: #fff;
     padding: 37px 40px 40px;
+    height: 330px;
 }
 
 h4.fundraise-1-title {
@@ -2640,6 +2641,10 @@ h4.fundraise-1-title {
 }
 
 p.fundraise-1-text {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px; 
     margin-bottom: 30px;
 }
 .h2-tips.SH01{
@@ -2753,7 +2758,11 @@ section.why-chooseus-1-section {
     background-size: cover;
 }
 .section02-bg{
-    background: url(../images/resource/section02-bg.jpg);
+    background-image: url(../images/resource/section02-bg.jpg);
+    background-size: cover;
+}
+.section03-bg{
+    background-image: url(../images/resource/section03-bg.png);
     background-size: cover;
 }
 .why-chooseus-1-count {
