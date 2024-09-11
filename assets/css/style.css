@@ -1677,6 +1677,7 @@ ul.header-top-1-contact-info li a:hover {
 
 .banner-section {
 	position: relative;
+    width: 100%;
 }
 .three-item-carousel, 
 .banner-slider {
@@ -1688,12 +1689,13 @@ ul.header-top-1-contact-info li a:hover {
 	position: relative;
 	left: 0;
 	top: 0;
+    width: 100%;
 	height: 100%;
-	width: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 }
+
 /* .banner-section .swiper-slide:before {
 	position: absolute;
 	left: 0;
@@ -2724,25 +2726,39 @@ p.fundraise-1-text {
 }
 .SH05::before{
     content: "";
-    width: 120px;
+    width: 144px;
+    height: 120px;
+    position: absolute;
+    top: 50%; /* ★ */
+    transform: translateY(-50%); /* ★ */
+    left: -160px;
+    bottom: 0;
+    background-image: url(../images/resource/section5Sticker_top_L.png);
+}
+.SH05::after{
+    content: "";
+    width: 127px;
+    height: 120px;
+    position: absolute;
+    top: 50%; /* ★ */
+    transform: translateY(-50%); /* ★ */
+    right: -140px;
+    bottom: 0;
+    background-image: url(../images/resource/section5Sticker_top_R.png);
+}
+.SH06{
+    display: inline-block;
+}
+.SH06::before{
+    content: "";
+    width: 94px;
     height: 120px;
     position: absolute;
     top: 50%; /* ★ */
     transform: translateY(-50%); /* ★ */
     left: -120px;
     bottom: 0;
-    background-image: url(../images/resource/section4Sticker_top.png);
-}
-.SH05::after{
-    content: "";
-    width: 120px;
-    height: 120px;
-    position: absolute;
-    top: 50%; /* ★ */
-    transform: translateY(-50%); /* ★ */
-    right: -120px;
-    bottom: 0;
-    background-image: url(../images/resource/section4Sticker_top.png);
+    background-image: url(../images/resource/section6Sticker_top.png);
 }
 .swiper-item{
     padding: 60px 120px;
@@ -2808,6 +2824,7 @@ section.why-chooseus-1-section {
     padding: 150px 0 120px;
 }
 .section01-bg{
+    overflow: hidden;
     background-image: url(../images/resource/section01-bg.jpg);
     background-size: cover;
 }
@@ -2820,9 +2837,13 @@ section.why-chooseus-1-section {
     background-size: cover;
 }
 .section04-bg{
+    overflow: hidden;
     background: linear-gradient(180deg, #E4C495 0%, rgba(228, 196, 149, 0.00) 100%), #EFE1C9;
 }
 .section05-bg{
+    background: #EFE0C8;
+}
+.section06-bg{
     background: #EFE0C8;
 }
 .why-chooseus-1-count {
@@ -3143,7 +3164,11 @@ h4.team-1-title {
 p.team-1-designaiton {
     margin: 0;
 }
-
+.testimonial-head{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 /* testimonials */
 section.testimonial-1-section {
     position: relative;
@@ -3171,15 +3196,24 @@ p.testimonial-1-desc {
 }
 
 .testimonial-1-block {
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
     position: relative;
     margin-bottom: 30px;
     background: #FFFFFF;
     box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
-    padding: 50px;
+    padding: 24px;
+    border-radius: 24px;
+    background: #FFF;
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.10);
 }
 
 .testimonial-1-author-thumb img {
     border-radius: 50%;
+    width: 60px;
+    height: 60px;
 }
 
 .testimonial-1-quote-icon {
@@ -3199,7 +3233,7 @@ p.testimonial-1-desc {
 .testimonial-1-author-thumb {
     position: relative;
     display: inline-flex;
-    margin-bottom: 34px;
+    /* margin-bottom: 34px; */
 }
 
 .testimonial-1-rating {
@@ -3208,8 +3242,9 @@ p.testimonial-1-desc {
 }
 
 p.testimonial-1-review-desc {
-    margin-bottom: 24px;
-    line-height: 1.8rem;
+    /* margin-bottom: 24px; */
+    font-size: 20px;
+    line-height: 32px;
 }
 
 p.testimonial-1-designation {

@@ -110,7 +110,36 @@
 	}
 }
 @media only screen and (max-width: 767px){	
-
+	.SH01::before{
+		display: none;
+	}
+	.SH01::after{
+		display: none;
+	}
+	.SH02::before{
+		display: none;
+	}
+	.SH02::after{
+		display: none;
+	}
+	.SH04::before{
+		display: none;
+	}
+	.SH04::after{
+		display: none;
+	}
+	.SH05::before{
+		display: none;
+	}
+	.SH05::after{
+		display: none;
+	}
+	.SH06::before{
+		display: none;
+	}
+	.SH06::after{
+		display: none;
+	}
 	.h2-tips.SH01::before{
 		display: none;
 
